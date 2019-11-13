@@ -7,19 +7,19 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="400" Width="1200">
     <Grid>
-        <TextBox HorizontalAlignment="Left" Height="48" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" Margin="480,190,0,0"/>
-        <Button Content="*0,01" HorizontalAlignment="Left" Height="37" Margin="480,120,0,0" VerticalAlignment="Top" Width="120"/>
-        <Button Content="/0,01" HorizontalAlignment="Left" Margin="480,265,0,0" VerticalAlignment="Top" Width="120" Height="45"/>
-        <Button Content="*0,001" HorizontalAlignment="Left" Height="37" Margin="295,120,0,0" VerticalAlignment="Top" Width="130" Click="Button_Click"/>
-        <Button Content="*0,1" HorizontalAlignment="Left" Height="37" Margin="660,120,0,0" VerticalAlignment="Top" Width="120"/>
-        <Button Content="+1" HorizontalAlignment="Left" Height="48" Margin="660,190,0,0" VerticalAlignment="Top" Width="120"/>
-        <Button Content="+0,1" HorizontalAlignment="Left" Height="48" Margin="800,190,0,0" VerticalAlignment="Top" Width="135"/>
-        <Button Content="+0,01" HorizontalAlignment="Left" Height="48" Margin="960,190,0,0" VerticalAlignment="Top" Width="125"/>
-        <Button Content="-1" HorizontalAlignment="Left" Height="48" Margin="295,190,0,0" VerticalAlignment="Top" Width="130"/>
-        <Button Content="-0,1" HorizontalAlignment="Left" Height="48" Margin="160,190,0,0" VerticalAlignment="Top" Width="120"/>
-        <Button Content="-0,01" HorizontalAlignment="Left" Height="48" Margin="0,190,0,0" VerticalAlignment="Top" Width="130"/>
-        <Button Content="/0,1" HorizontalAlignment="Left" Height="45" Margin="295,265,0,0" VerticalAlignment="Top" Width="130"/>
-        <Button Content="/0,001" HorizontalAlignment="Left" Height="45" Margin="660,265,0,0" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtNumero" HorizontalAlignment="Left" Height="48" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="480,190,0,0" SpellCheck.IsEnabled="True"/>
+        <Button Content="*0,01" HorizontalAlignment="Left" Height="47" Margin="480,110,0,0" VerticalAlignment="Top" Width="120" Click="Button_ClickM2"/>
+        <Button Content="/0,01" HorizontalAlignment="Left" Margin="480,265,0,0" VerticalAlignment="Top" Width="120" Height="55" Click="Button_ClickDi2"/>
+        <Button Content="*0,001" HorizontalAlignment="Left" Height="47" Margin="295,110,0,0" VerticalAlignment="Top" Width="130" Click="Button_ClickM"/>
+        <Button Content="*0,1" HorizontalAlignment="Left" Height="47" Margin="660,110,0,0" VerticalAlignment="Top" Width="120" Click="Button_ClickM2"/>
+        <Button Content="+1" HorizontalAlignment="Left" Height="48" Margin="660,190,0,0" VerticalAlignment="Top" Width="120" Click="Button_ClickAdd3"/>
+        <Button Content="+0,1" HorizontalAlignment="Left" Height="48" Margin="800,190,0,0" VerticalAlignment="Top" Width="135" Click="Button_ClickAdd2"/>
+        <Button Content="+0,01" HorizontalAlignment="Left" Height="48" Margin="960,190,0,0" VerticalAlignment="Top" Width="125" Click="Button_ClickAdd3"/>
+        <Button Content="-1" HorizontalAlignment="Left" Height="48" Margin="295,190,0,0" VerticalAlignment="Top" Width="130" Click="Button_ClickSo2"/>
+        <Button Content="-0,1" HorizontalAlignment="Left" Height="48" Margin="160,190,0,0" VerticalAlignment="Top" Width="120" Click="Button_ClickSo1"/>
+        <Button Content="-0,01" HorizontalAlignment="Left" Height="48" Margin="0,190,0,0" VerticalAlignment="Top" Width="130" Click="Button_ClickSo"/>
+        <Button Content="/0,1" HorizontalAlignment="Left" Height="55" Margin="295,265,0,0" VerticalAlignment="Top" Width="130" Click="Button_ClickDi"/>
+        <Button Content="/0,001" HorizontalAlignment="Left" Height="55" Margin="660,265,0,0" VerticalAlignment="Top" Width="120" Click="Button_ClickDi3"/>
 
     </Grid>
 </Window>

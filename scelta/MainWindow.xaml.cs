@@ -1,17 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
+﻿using System.Windows;
 
 namespace scelta
 {
@@ -25,11 +12,97 @@ namespace scelta
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void Button_ClickM(object sender, RoutedEventArgs e)
         {
             double d = double.Parse(txtNumero.Text);
-            double r = d *0,001;
+            double r = d * 0.001;
             txtNumero.Text = r.ToString();
         }
+
+        private void Button_ClickM1(object sender, RoutedEventArgs e)
+        {
+            double d = double.Parse(txtNumero.Text);
+            double r = d * 0.01;
+            txtNumero.Text = r.ToString();
+        }
+
+        private void Button_ClickM2(object sender, RoutedEventArgs e)
+        {
+            double d = double.Parse(txtNumero.Text);
+            double r = d * 0.1;
+            txtNumero.Text = r.ToString();
+        }
+
+        private void Button_ClickDi(object sender, RoutedEventArgs e)
+        {
+            double d = double.Parse(txtNumero.Text);
+            double r = d / 0.001;
+            txtNumero.Text = r.ToString();
+        }
+
+        private void Button_ClickDi2(object sender, RoutedEventArgs e)
+        {
+            double d = double.Parse(txtNumero.Text);
+            double r = d / 0.01;
+            txtNumero.Text = r.ToString();
+        }
+
+        private void Button_ClickDi3(object sender, RoutedEventArgs e)
+        {
+            double d = double.Parse(txtNumero.Text);
+            double r = d / 0.1;
+            txtNumero.Text = r.ToString();
+        }
+
+        private void Button_ClickAdd(object sender, RoutedEventArgs e)
+        {
+            double d = double.Parse(txtNumero.Text);
+            double r = d + 0.01;
+            txtNumero.Text = r.ToString();
+        }
+
+        private void Button_ClickAd2(object sender, RoutedEventArgs e)
+        {
+            double d = double.Parse(txtNumero.Text);
+            double r = d + 0.1;
+            txtNumero.Text = r.ToString();
+        }
+
+        private void Button_ClickAdd3(object sender, RoutedEventArgs e)
+        {
+            double d = double.Parse(txtNumero.Text);
+            double r = d + 1;
+            txtNumero.Text = r.ToString();
+        }
+
+        private void Button_ClickSo(object sender, RoutedEventArgs e)
+        {
+            double d = double.Parse(txtNumero.Text);
+            double r = d - 0.01;
+            txtNumero.Text = r.ToString();
+        }
+
+        private void Button_ClickSo1(object sender, RoutedEventArgs e)
+        {
+            double d = double.Parse(txtNumero.Text);
+            double r = d - 0.1;
+            txtNumero.Text = r.ToString();
+        }
+
+        private void Button_ClickSo2(object sender, RoutedEventArgs e)
+        {
+            double d = double.Parse(txtNumero.Text);
+            double r = d - 1;
+            txtNumero.Text = r.ToString();
+
+        }
+
+
+        
+
+
+
+
+
     }
 }
